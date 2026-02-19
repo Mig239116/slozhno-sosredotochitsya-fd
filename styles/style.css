@@ -111,7 +111,7 @@
   text-shadow: 4px 4px 0 var(--main-title-shadow);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 0.825;
-  margin: 55px 0 0;
+  margin: 80px 0 0;
 }
 
 .header__description {
