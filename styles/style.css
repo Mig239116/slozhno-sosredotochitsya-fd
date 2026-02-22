@@ -35,13 +35,13 @@
 
 .decorated-zone::before {
   top: 10px;
-  right: 10px;
+  right: 0px;
   border-width: 1px 1px 0 0;
 }
 
 .decorated-zone::after {
-  bottom: 10px;
-  left: 10px;
+  bottom: 0px;
+  left: 0px;
   border-width: 0 0 1px 1px;
 }
 
@@ -151,7 +151,6 @@ section:last-of-type {
 }
 
 .section__subtitle {
-  margin-bottom: 20px;
   font-weight: bold;
   background-color: var(--accent-color);
   color: var(--decor-text);
@@ -202,7 +201,7 @@ section:last-of-type {
 .gallery {
   display: grid;
   gap: 10px;
-  grid-template-rows: 142px 355px 355px 237px 237px;
+  grid-template-rows: 142px 355px 237px 355px 237px;
 }
 
 .gallery__item {
@@ -231,6 +230,7 @@ section:last-of-type {
 .footer {
   align-items: center;
   text-align: center;
+  justify-content: center;
 }
 
 .footer__title {
