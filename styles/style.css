@@ -388,7 +388,7 @@ section:last-of-type {
   }
 
   .header__description {
-    margin-block-start: 114px;
+    margin-block-start: 104px;
     margin-block-end: 154px;
     margin-inline-end: 20px;
   }
@@ -403,6 +403,18 @@ section:last-of-type {
   .section--tips .section__cards {
     display: flex;
     flex-direction: column;
+  }
+
+  .section--what .section__cards .card .card__text {
+    padding-right: 10px;
+  }
+
+  .section--why .section__cards .card .card__text {
+    padding-right: 0px;
+  }
+
+  .section--tips .section__cards .card .card__text {
+    padding-right: 0;
   }
 
   .gallery {
