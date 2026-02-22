@@ -388,8 +388,9 @@ section:last-of-type {
   }
 
   .header__description {
-    max-inline-size: 50.7%;
     margin-block-start: 114px;
+    margin-block-end: 154px;
+    margin-inline-end: 20px;
   }
 
   .section--what .section__cards {
