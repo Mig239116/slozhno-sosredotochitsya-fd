@@ -299,7 +299,7 @@ section:last-of-type {
   }
 
   .section--what .section__cards .card .card__text {
-    padding-right: 10px;
+    padding-right: 20px;
   }
 
   .section:not(.section--gallery) .section__title {
