@@ -392,10 +392,14 @@ section:last-of-type {
   }
 
   .header__description {
-    margin-block-start: 114px;
+    margin-block-start: 104px;
     margin-block-end: 154px;
     margin-inline-end: 20px;
   }
+
+  .main {
+    margin-top: 10px;
+  } 
 
   .section--what .section__cards {
     display: grid;
