@@ -369,6 +369,10 @@ section:last-of-type {
 }
 
 @media (width >= 1024px) {
+  .header {
+    height: 100vh;
+  }
+  
   .header__theme-menu {
     margin-top: 0;
     position: absolute;
