@@ -147,6 +147,10 @@ section:last-of-type {
   margin-bottom: 20px;
 }
 
+.section--gallery .section__title {
+  margin-bottom: 10px;
+}
+
 .title-decor {
   background-color: var(--accent-color);
   color: var(--decor-text);
