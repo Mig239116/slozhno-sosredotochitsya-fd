@@ -298,6 +298,10 @@ section:last-of-type {
     align-items: start;
   }
 
+  .section--what .section__cards .card .card__text {
+    padding-right: 10px;
+  }
+
   .section:not(.section--gallery) .section__title {
     margin-bottom: 0;
   }
