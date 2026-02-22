@@ -405,8 +405,12 @@ section:last-of-type {
     flex-direction: column;
   }
 
+  .section--gallery .section__title {
+    margin-bottom: 20px;
+  }
+
   .section--what .section__cards .card .card__text {
-    padding-right: 10px;
+    padding-right: 0px;
   }
 
   .section--why .section__cards .card .card__text {
