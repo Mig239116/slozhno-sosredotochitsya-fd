@@ -291,7 +291,9 @@ section:last-of-type {
     padding-bottom: 20px;
   }
 
-
+  .section--gallery .section__title {
+    margin-bottom: 10px;
+  }
   .section:not(.section--gallery):not(.section--what) {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -303,7 +305,7 @@ section:last-of-type {
   }
 
   .section--tips .section__cards .card .card__text {
-    padding-right: 20px;
+    padding-right: 10px;
   }
 
   .section:not(.section--gallery) .section__title {
