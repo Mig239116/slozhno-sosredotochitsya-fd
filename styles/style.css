@@ -264,19 +264,33 @@ section:last-of-type {
 
   .header__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    margin: 463px 0 0;
+    margin: 473px 0 0;
   }
 
   .header__description {
     max-inline-size: calc(50% - 20px);
     margin-block-start: 162px;
-    margin-block-end: 243px;
+    margin-block-end: 203px;
     margin-inline-end: 20px;
   }
 
-  .section--what .section__title {
-    width: calc((100% - 40px)/3);
+  .main {
+    margin: 0 20px;
   }
+
+  .section {
+    margin: 80px 0;
+  }
+
+  .section--why .section__title {
+    padding: 0 5px;
+  }
+
+  .section--what .section__title {
+    width: calc((100% - 80px)/3);
+    padding-bottom: 20px;
+  }
+
 
   .section:not(.section--gallery):not(.section--what) {
     display: grid;
