@@ -299,7 +299,11 @@ section:last-of-type {
   }
 
   .section--what .section__cards .card .card__text {
-    padding-right: 25px;
+    padding-right: 20px;
+  }
+
+  .section--tips .section__cards .card .card__text {
+    padding-right: 20px;
   }
 
   .section:not(.section--gallery) .section__title {
@@ -335,8 +339,8 @@ section:last-of-type {
   }
 
   .gallery {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 229px 230px 229px;
+    grid-template-rows: 192px 230px 318px;
     gap: 20px;
   }
 
