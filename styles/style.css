@@ -309,10 +309,6 @@ section:last-of-type {
     padding-right: 10px;
   }
 
-  .section--why .section__cards {
-    padding-left: 5px;
-  }
-
   .section--what .section__title {
     width: calc((100% - 80px)/3);
     padding-bottom: 20px;
@@ -325,10 +321,6 @@ section:last-of-type {
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: start;
-  }
-
-  .section--tips .section__cards{
-    padding-left: 5px;
   }
 
   .section:not(.section--gallery) .section__title {
@@ -351,6 +343,7 @@ section:last-of-type {
   .section--why .section__cards {
     display: flex;
     flex-direction: column;
+    padding-left: 5px;
   }
 
   .section--what .section__cards {
@@ -361,6 +354,7 @@ section:last-of-type {
   .section--tips .section__cards {
     display: flex;
     flex-direction: column;
+    padding-left: 5px;
   }
 
   .gallery {
