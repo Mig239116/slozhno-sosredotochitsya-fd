@@ -261,20 +261,44 @@ section:last-of-type {
 }
 
 @media (width >= 768px) {
-
   .header {
-
+    padding-left: 0px;
+    padding-right: 20px;
   }
-  
+
+  .decorated-zone::before {
+    top: 20px;
+    right: 20px;
+  }
+
+  .decorated-zone::after {
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .header__rec {
+    top: 20px;
+    right: 50px;
+  }
+
+  .header__theme-menu {
+    margin-top: 5px;
+  }
+
+  .header__title {
+    line-height: 0.65;
+  }
+
   .header__description {
-    max-inline-size: calc(50% - 20px);
-    margin-block-start: 152px;
-    margin-block-end: 203px;
-    margin-inline-end: 20px;
+    max-inline-size: calc(50% - 10px);
+    justify-self: flex-end;
   }
 
   .main {
-    margin: 0 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .section {
@@ -282,7 +306,11 @@ section:last-of-type {
   }
 
   .section--why .section__title {
-    padding: 0 5px;
+    padding-right: 10px;
+  }
+
+  .section--why .section__cards {
+    padding-left: 5px;
   }
 
   .section--what .section__title {
@@ -291,7 +319,7 @@ section:last-of-type {
   }
 
   .section--gallery .section__title {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .section:not(.section--gallery):not(.section--what) {
     display: grid;
@@ -299,12 +327,8 @@ section:last-of-type {
     align-items: start;
   }
 
-  .section--what .section__cards .card .card__text {
-    padding-right: 20px;
-  }
-
-  .section--tips .section__cards .card .card__text {
-    padding-right: 10px;
+  .section--tips .section__cards{
+    padding-left: 5px;
   }
 
   .section:not(.section--gallery) .section__title {
@@ -365,6 +389,7 @@ section:last-of-type {
     grid-column: 1;
     grid-row: 2 / 4;
   }
+
 }
 
 @media (width >= 1024px) {
