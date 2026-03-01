@@ -383,7 +383,6 @@ section:last-of-type {
     grid-column: 1;
     grid-row: 2 / 4;
   }
-
 }
 
 @media (width >= 1024px) {
@@ -422,12 +421,12 @@ section:last-of-type {
     flex-direction: column;
   }
 
-  .section:not(.section--gallery):not(.section--what):not(section--tips) {
+  .section:not(.section--gallery):not(.section--what):not(.section--tips) {
     grid-template-columns: 295px 666px;
     gap: 25px;
   }
 
-  .section:not(.section--gallery):not(.section--what):not(section--why) {
+  .section:not(.section--gallery):not(.section--what):not(.section--why) {
     grid-template-columns: 310px 662px;
     gap: 10px;
   }
@@ -435,7 +434,6 @@ section:last-of-type {
   .section--gallery .section__title {
     margin-bottom: 20px;
   }
-
 
   .gallery {
     grid-template-columns: 315px 315px 314px;
