@@ -387,9 +387,6 @@ section:last-of-type {
 }
 
 @media (width >= 1024px) {
-  .header {
-    height: 100vh;
-  }
 
   .header__theme-menu {
     margin-top: 0;
@@ -402,22 +399,16 @@ section:last-of-type {
   .header__theme-menu-list {
     flex-direction: row;
     justify-content: center;
+    gap: 10px;
   }
 
   .header__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    margin: 329px 0 0;
-  }
-
-  .header__description {
-    margin-block-start: 104px;
-    margin-block-end: 154px;
-    margin-inline-end: 20px;
   }
 
   .main {
     margin-top: 20px;
-  } 
+  }
 
   .section--what .section__cards {
     display: grid;
@@ -431,21 +422,20 @@ section:last-of-type {
     flex-direction: column;
   }
 
+  .section:not(.section--gallery):not(.section--what):not(section--tips) {
+    grid-template-columns: 295px 666px;
+    gap: 25px;
+  }
+
+  .section:not(.section--gallery):not(.section--what):not(section--why) {
+    grid-template-columns: 310px 662px;
+    gap: 10px;
+  }
+
   .section--gallery .section__title {
     margin-bottom: 20px;
   }
 
-  .section--what .section__cards .card .card__text {
-    padding-right: 0px;
-  }
-
-  .section--why .section__cards .card .card__text {
-    padding-right: 0px;
-  }
-
-  .section--tips .section__cards .card .card__text {
-    padding-right: 0;
-  }
 
   .gallery {
     grid-template-columns: 315px 315px 314px;
@@ -472,5 +462,9 @@ section:last-of-type {
   .gallery__item:nth-child(5) {
     grid-column: 1;
     grid-row: 2 / 4;
+  }
+
+  .footer__title {
+    font-size: 157px;
   }
 }
